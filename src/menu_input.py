@@ -13,7 +13,3 @@ def menu_input(choices):
             pass
         print("Invalid option!")
     return None
-
-if __name__ == "__main__":
-    opt = menu_input([('l', "Är du en vinnare?")])
-    print(opt)
